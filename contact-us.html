@@ -1,0 +1,91 @@
+<!DOCTYPE html>
+<html lang="en">
+    <head>
+        <meta charset="uft-8">
+        <Title>
+            Contact the Science Museum
+        </Title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Science museum, about us. Information about the science museum. Science should not be confined to the textbook, but brought to
+        life through exhibits. ">
+        <link rel="stylesheet" href="style.css">
+        <link rel="stylesheet" href="FontAwesome/all.css">
+    </head>
+    <body>
+        <header>
+            <nav>
+                <input type="checkbox" id="check">
+                <label for="check" class="checkbtn">
+                    <i class="fas fa-bars"></i>
+                </label>
+                <a class="logo" href="index.html">Science Museum</a>
+                <ul>
+                    <li><a class="nav-item" href="explore.html">Explore</a></li>
+                    <li><a class="nav-item" href="exhibition-spaces.html">Exhibition Spaces</a></li>
+                    <li><a class="nav-item" href="get-involved.html">Get Involved</a></li>
+                    <li><a class="nav-item" href="visit.html">Visit</a></li>
+                    <li><a class="nav-item active" href="contact-us.html">Contact Us</a></li>
+                </ul>
+                <div class="nav-background">
+                </div>
+            </nav>
+        </header>
+        <div class="aboutusimg">
+            <h1 class="header-subpage">Contact us</h1>
+        </div>
+        <main>
+            <div class="form">
+                <form id="contact-form">
+                    <div id="form-sent"></div>
+                    <h2>Contact Form</h2>
+                    <div class="input-container">
+                        <input type="text" id="name" class="input">
+                        <label for="name" class="label">Name</label>
+                        <div class="form-error" id="name-error">
+                            Please enter your name
+                        </div>
+                    </div>
+                    <div class="input-container">
+                        <input type="email" id="email" class="input">
+                        <label for="email" class="label">Email</label>
+                        <div class="form-error" id="email-error">
+                            Email (required)
+                        </div>
+                    </div>
+                    <div class="input-container">
+                        <textarea class="text-box" name="message" id="subject" placeholder="Write your message here..."></textarea>
+                        <div class="form-error" id="subject-error">
+                            Your message must be at least 20 characters
+                        </div>
+                    </div>
+                    <div class="button-container">
+                        <button class="send-message">Send Message</button>
+                        <div class="button-background"></div>
+                    </div>
+                </form>
+            </div>
+            <div class="explore-together-container">
+                <h2>Explore together</h2>
+                <p>Come join us at the Community Science Museum where we’re committed to making science accessible to all.</p>
+                <p>Over the course of human history, science has developed from our early understanding of fire, wind, water, and earth to exploring everything from galaxies far away to the very building blocks of life itself.
+                </p>
+                <p>The aim of our museum is to create a space where everyone can experience the wonders of our discoveries and perhaps even ignite a lifelong passion to continue the exploration of the world around us.
+                </p>
+                <p>We believe science should not be confined to the textbook, but brought to live through exhibits. This is why we have over 1000 different exhibits on the many varied subjects of science to explore. Many of these exhibits are designed for you to interact with and play around to see science come to life (apart from the dinosaur exhibits – they only come to life at night when everyone’s gone home).
+                </p>
+            </div>
+        </main>
+            <footer>
+                <div class="social">
+                    <a class="facebook" href="#"><i class="fab fa-facebook"></i></a>
+                    <a class="instagram" href="#"><i class="fab fa-instagram"></i></a>
+                    <a class="twitter" href="#"><i class="fab fa-twitter"></i></a>
+                    <a class="youtube" href="#"><i class="fab fa-youtube"></i></a>
+                </div>
+            </footer>
+        <script src="javascript/script.js"></script>
+        <script src="javascript/header-animation.js"></script>
+        <script src="javascript/message.js"></script>
+        <script src="javascript/form.js"></script>
+    </body>
+</html>
